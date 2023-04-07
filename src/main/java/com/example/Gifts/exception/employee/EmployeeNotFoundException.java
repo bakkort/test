@@ -1,2 +1,7 @@
-package com.example.Gifts.exception.employee;public class EmployeeNotFoundException {
+package com.example.Gifts.exception.employee;
+
+public class EmployeeNotFoundException extends RuntimeException{
+    public EmployeeNotFoundException(String message) {
+        super(message);
+    }
 }
